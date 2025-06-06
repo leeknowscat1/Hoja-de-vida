@@ -96,7 +96,9 @@
 h4{
     font-size: 20px;
     color: #094b53;
-    padding: 20px;
+    padding-top: 30px;
+    padding-left: 0;
+    padding-bottom: 15px;
 }
 h5{
     font-size: 18px;
@@ -190,10 +192,15 @@ progress{
   width: 100px;
   height: 10px;
   border-radius: 10px;
-  background-color: #e0e0e0;
+  background-color: #fffdfd;
   overflow: hidden;
   border: none;
 }
 progress::-webkit-progress-value {background-color: #094b53;
   border-radius: 10px;}
+progress::-webkit-progress-bar{
+    background-color: #ffffff;
+  border-radius: 10px;
+}
+
   
